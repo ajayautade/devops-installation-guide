@@ -6,22 +6,22 @@ A comprehensive, copy-paste-ready reference for installing essential DevOps tool
 
 ---
 
-## 📋 Table of Contents
+## 📋 Table of Contents (Install in this order ⬇️)
 
-| # | Tool | Description |
-|---|------|-------------|
-| 1 | [Docker](guides/docker.md) | Container runtime & Docker Compose |
-| 2 | [Kubernetes](guides/kubernetes.md) | kubectl, Minikube & Kind |
-| 3 | [ArgoCD](guides/argocd.md) | GitOps continuous delivery for Kubernetes |
-| 4 | [Grafana](guides/grafana.md) | Monitoring & observability dashboards |
-| 5 | [Prometheus](guides/prometheus.md) | Metrics collection & alerting |
-| 6 | [Jenkins](guides/jenkins.md) | CI/CD automation server |
-| 7 | [Terraform](guides/terraform.md) | Infrastructure as Code |
-| 8 | [Ansible](guides/ansible.md) | Configuration management & automation |
-| 9 | [Helm](guides/helm.md) | Kubernetes package manager |
-| 10 | [Nginx](guides/nginx.md) | Web server & reverse proxy |
-| 11 | [SonarQube](guides/sonarqube.md) | Code quality & security analysis |
-| 12 | [Trivy](guides/trivy.md) | Container & image vulnerability scanner |
+| # | Tool | Requires | Description |
+|---|------|----------|-------------|
+| 1 | [Docker](guides/docker.md) | — | Container runtime (install this first!) |
+| 2 | [Kubernetes](guides/kubernetes.md) | Docker | kubectl, Minikube & Kind |
+| 3 | [Helm](guides/helm.md) | kubectl + Cluster | Kubernetes package manager |
+| 4 | [ArgoCD](guides/argocd.md) | kubectl + Cluster | GitOps continuous delivery |
+| 5 | [Terraform](guides/terraform.md) | — | Infrastructure as Code |
+| 6 | [Ansible](guides/ansible.md) | — | Configuration management & automation |
+| 7 | [Prometheus](guides/prometheus.md) | — | Metrics collection & alerting |
+| 8 | [Grafana](guides/grafana.md) | Prometheus (optional) | Monitoring & observability dashboards |
+| 9 | [Jenkins](guides/jenkins.md) | — | CI/CD automation server |
+| 10 | [Nginx](guides/nginx.md) | — | Web server & reverse proxy |
+| 11 | [SonarQube](guides/sonarqube.md) | Docker | Code quality & security analysis |
+| 12 | [Trivy](guides/trivy.md) | — | Container & image vulnerability scanner |
 
 ---
 
