@@ -16,13 +16,14 @@ A comprehensive, copy-paste-ready reference for installing essential DevOps tool
 | 4 | [Helm](guides/helm.md) | kubectl + Cluster | Kubernetes package manager |
 | 5 | [ArgoCD](guides/argocd.md) | kubectl + Cluster | GitOps continuous delivery |
 | 6 | [Terraform](guides/terraform.md) | — | Infrastructure as Code |
-| 7 | [Ansible](guides/ansible.md) | — | Configuration management & automation |
-| 8 | [Prometheus](guides/prometheus.md) | — | Metrics collection & alerting |
-| 9 | [Grafana](guides/grafana.md) | Prometheus (optional) | Monitoring & observability dashboards |
-| 10 | [Jenkins](guides/jenkins.md) | — | CI/CD automation server |
-| 11 | [Nginx](guides/nginx.md) | — | Web server & reverse proxy |
-| 12 | [SonarQube](guides/sonarqube.md) | Docker | Code quality & security analysis |
-| 13 | [Trivy](guides/trivy.md) | — | Container & image vulnerability scanner |
+| 7 | [AWS CLI](guides/aws-cli.md) | — | Command-line interface for AWS services |
+| 8 | [Ansible](guides/ansible.md) | — | Configuration management & automation |
+| 9 | [Prometheus](guides/prometheus.md) | — | Metrics collection & alerting |
+| 10 | [Grafana](guides/grafana.md) | Prometheus (optional) | Monitoring & observability dashboards |
+| 11 | [Jenkins](guides/jenkins.md) | — | CI/CD automation server |
+| 12 | [Nginx](guides/nginx.md) | — | Web server & reverse proxy |
+| 13 | [SonarQube](guides/sonarqube.md) | Docker | Code quality & security analysis |
+| 14 | [Trivy](guides/trivy.md) | — | Container & image vulnerability scanner |
 
 ---
 
